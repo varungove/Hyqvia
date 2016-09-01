@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <EditText
+        android:id="@+id/subject"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginLeft="20dp"
+        android:singleLine="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Subject"
+        />
+
+    <EditText
+        android:id="@+id/details"
+        android:background="@drawable/edittext_bg"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/subject"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="150dp"
+        android:gravity="top|left"
+        android:maxLines="10"
+        android:minLines="1"
+        android:hint="Details.."/>
+
+    <Button
+        android:id="@+id/submit_thread"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/buttons"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="20dp"
+        android:onClick="submit"
+        android:textColor="#ffffff"
+        android:text="Submit"/>
+
+</RelativeLayout>

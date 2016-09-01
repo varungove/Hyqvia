@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:weightSum="4"
+    android:background="@drawable/background"
+    tools:context="com.example.hyqvia.ankush.Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/forum"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/forum"
+                android:scaleType="fitCenter"
+                android:onClick="forum"
+                android:padding="15dp"
+                android:background="@drawable/buttons_circular"/>
+
+            <TextView
+                android:id="@+id/forumText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="forum"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/chat"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/chat"
+                android:scaleType="fitCenter"
+                android:onClick="chat"
+                android:padding="15dp"
+                android:background="@drawable/buttons_circular"/>
+
+            <TextView
+                android:id="@+id/chatText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="chat"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <ImageButton
+                android:id="@+id/info"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/info"
+                android:scaleType="fitCenter"
+                android:onClick="info"
+                android:padding="25dp"
+                android:background="@drawable/buttons_circular"/>
+
+            <TextView
+                android:id="@+id/infoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="info"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/story"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:text="MY LIFE MY STORY"
+                android:textSize="16dp"
+                android:onClick="story"
+                android:scaleType="fitCenter"
+                android:padding="15dp"
+                android:background="@drawable/buttons_circular"/>
+
+            <TextView
+                android:id="@+id/storyText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="story"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/profile"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/profile"
+            android:scaleType="fitCenter"
+            android:onClick="profile"
+            android:padding="16dp"
+            android:background="@drawable/buttons_circular"/>
+
+        <TextView
+            android:id="@+id/profileText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="profile"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ambassador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        android:gravity="center"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttons"
+            android:onClick="ambassador"
+            android:text="BECOME A PATIENT AMBASSADOR"
+            android:textColor="#ffffff"/>
+
+    </LinearLayout>
+
+</LinearLayout>

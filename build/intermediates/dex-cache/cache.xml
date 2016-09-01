@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.3.0_43c88b013e5c8d4eaf20be93571c53e3f9499561.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-android/4.3.5.1/eecbb0b998e77629862a13d957d552b3be58fc4e/httpclient-android-4.3.5.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="eecbb0b998e77629862a13d957d552b3be58fc4e">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/httpclient-android-4.3.5.1_0da30ecfc3ddf8d959e049c97b62e72f82a7506f.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/com.android.support-design-23.3.0_c0b77b7556c0e642472e303e9ff49f24e699a370.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/internal_impl-23.3.0_e4aeccc684da0f9bcf7e96f287ec00f4e44a0db8.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/support-annotations-23.3.0_596579a6b32ea67612ff11b35e331f0ef45daf86.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.3.0_dd5031fbd893abec5fe5699916bb6605805be330.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.3.0_31d3768a9c34101153c9b8464acb4c782142689f.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.3.0_305cf811e92a8047f5648ed6c3fe572508358e2c.jar" />
+    </item>
+    <item
+        jar="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/ankush/Desktop/Hyqvia/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.3.0_2f2ed693f69dcf8f678d476e76906c9e9d324431.jar" />
+    </item>
+
+</items>
